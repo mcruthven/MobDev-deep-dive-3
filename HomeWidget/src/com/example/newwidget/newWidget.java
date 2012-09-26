@@ -19,13 +19,6 @@ public class newWidget extends AppWidgetProvider
     @Override
     public void onUpdate( Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds )
     {
-     /*   RemoteViews remoteViews;
-        ComponentName Widget;
-        DateFormat format = SimpleDateFormat.getTimeInstance( SimpleDateFormat.MEDIUM, Locale.getDefault() );
 
-        remoteViews = new RemoteViews( context.getPackageName(), R.layout.activity_main );
-        watchWidget = new ComponentName( context, newWidget.class );
-        remoteViews.setTextViewText( R.id.widget_textview, "Time = " + format.format( new Date()));
-        appWidgetManager.updateAppWidget( watchWidget, remoteViews );*/
     }
 }
